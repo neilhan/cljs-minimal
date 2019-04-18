@@ -1,0 +1,19 @@
+{
+    "name": "cljs-minimal",
+    "version": "0.0.1",
+    "description": "A minimal ClojureScript project template",
+    "main": "bin/lumo-npm-example",
+    "directories": {
+        "lib": "lib"
+    },
+    "author": "Neil Han",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/neilhan/cljs-minimal"
+    },
+    "dependencies": {
+        "clojurescript": "0.0.11",
+        "lumo-cljs": "^1.10.1"
+    }
+}
