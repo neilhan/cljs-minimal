@@ -1,0 +1,6 @@
+{:source-paths ["src"]
+ :compiler     {:output-to     "build/lambda.js"
+                :output-dir    "build"
+                :source-map    false ;; because of a bug in lumo <= 1.8.0
+                :target        :nodejs
+                :optimizations :simple}}
